@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 940px;
+    margin: 5% auto;
+    min-height: 100%;
+    background-image: url(../images/adventure.jpg);
+  }
+  /* ul {
+    padding-left: 0;
+    list-style: none;
+  } */
+
+  
+  .col-40, .col-60 {
+    display: table-cell;
+    margin: 0;
+    vertical-align: top;
+  }
+  .col-40 {
+    background: #FFF;
+    padding: 30px;
+    color: #000;
+  }
+  
+  .col-60 {
+    background: #E84A5F;
+  } 
+  
+  #flecha{
+    font-size: 60px;
+  }
+  
+  .texto-centrado {
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:	#94d8a6;
+  }
+   
+  
+  #juego {
+  background-color: yellow;
+  width: 600px;
+  height: 600px;
+  }
+  
+  .juego-pieza{
+    width: 33.33%;
+    height: 33.33%;
+    float:left;
+  }
+  
+  .juego-pieza img{
+    width: 100%;
+  }
+  
+  #juego div {
+    text-align: center;
+    animation: fadein 2s;
+  }
+  
+  #objetivo img{
+    width:150px;
+    height:150px;
+  }
+  
